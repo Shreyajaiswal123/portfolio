@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Caveat:wght@600&family=Poppins:wght@500;700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Caveat:wght@600&family=Poppins:wght@400;500;700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Caveat:wght@600&family=Poppins:wght@200;300;400;500;700&family=Prata&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+body{
+   
+    background-color: #FBFBFB;
+    font-family:poppins;
+}
+.primary-section{
+    background-color:#CE0505;
+    height:70px;
+ 
+   
+    
+}
+.main-header{
+margin:auto;
+       
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height:70px;
+    width:80%;
+}
+.header-logo{
+
+
+ background-color: #FFFFFF;
+ border-radius: 50%;
+
+width: 47px;
+height: 47px;
+animation:slideTop 1s ease forwards;
+
+text-align: center;
+font: normal normal 600 33px/50px Poppins;
+letter-spacing: 0px;
+color: #EB2929;
+opacity: 1;
+    
+}
+@keyframes slideTop{
+    0%{
+        opacity:0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+.header-button{
+
+
+display: flex;
+justify-content: space-between;
+animation:slideLeft 1s ease forwards;
+
+}
+@keyframes slideLeft{
+    0%{
+        opacity:0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+.btn{
+    background: transparent;
+    border: none;
+    color:#FFFFFF;
+    padding: 10px 15px;
+    height:3rem; 
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background:linear-gradient(45deg, #EB2929,#FFFFFF) ;
+    color: #FFFFFF;
+}
+.btn.create-account{
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+}
+.btn.login{
+
+    margin-right:15px;
+}
+.secondary-section{
+width:80%;
+    margin:auto;}
+.breakfast-place   {
+    font-size:35px;
+    margin: 20px 0px;
+    font-weight: bold;
+    color: #192F60;}
+.Breakfast-Places-in-Mumbai{
+    opacity:0;
+    animation:slideRight 1s ease forwards;
+    
+
+    
+}
+@keyframes slideRight{
+    0%{
+        opacity:0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+
+.filter-restraunts{
+    
+    display: flex;
+    gap:35px;
+    
+}
+.filter{
+
+   flex-basis:20% ;
+   box-shadow: 0px 7px 9px #00000029;
+   background-color: white;
+   padding-left: 18px;
+   padding-top:15px;
+   animation:slideLeft 1s ease forwards;
+   animation-delay: 0.2s;
+
+   
+
+}
+
+
+.sub-heading-filter{
+    font-weight:600;
+    color: #192F60;
+
+   
+    
+    
+}
+.sub-heading-sort{
+    font-weight:600;
+    color: #192F60;
+    font-size:16px;
+    margin-top:20px;
+    
+    
+}
+.sort{
+    margin-top:16px;
+    margin-bottom: 17px;
+}
+
+
+
+
+
+
+
+
+.select-location{
+    margin-top:5px;
+    font-size:13px;
+    color: #192F60;
+  
+   
+}
+.form-select{
+    width:180px;
+    height:30px;
+    margin:5px;
+    border-radius:0;
+   
+    color: #8C96AB;
+    padding: 5px;
+}
+.cusine{
+    margin-top:15px;
+    font-size:13px;
+  
+   
+}
+.cost-for-two{
+    font-size:13px;
+  
+    margin-top:15px;
+}
+.sort{
+  
+    font-size: 13px;
+}
+.form-label{
+    color: #192F60;
+}
+.form-check{
+    color:#8C96AB;
+    margin: 5px 5px;
+}
+.restaurants{
+    flex-basis: 60%;
+
+} 
+.restaurants-box{
+    background-color:#FFFFFF;
+    box-shadow: 0px 7px 9px #00000029;
+    margin-bottom: 25px;
+    padding: 20px;
+    animation:slideLeft 1s ease forwards;
+   animation-delay: .3s;
+   
+    
+}
+
+
+ 
+.image-section{
+    display: flex;
+    padding:10px ;
+    margin-bottom: 10px;
+    
+    
+
+}
+.restaurant-image{
+    width:130px;
+    height: 130px;
+    border-radius: 25px;
+}
+.restaurant-details{
+    padding-left:25px;
+    padding-top:15px;
+    
+}
+.restaurant-name{
+    color: #192F60;
+    font-weight: bold;
+    font-size:25px;
+
+}
+.restaurant-city{
+    color: #192F60;
+    font-size:16px;
+    font-weight:500;
+    
+}
+.restaurant-address{
+    color:#636F88
+}
+hr{
+    border: 1px solid #DEDFE5;
+}
+.detail-section{
+    display: flex;
+    gap:10px;
+}
+.cuisines-cost{
+    font-size:15px;
+    padding: 20px;
+    color: #636F88;
+    font-weight:500;
+}
+.cuisines-cost-content{
+    font-size:15px;
+    padding: 20px;
+color:#192F60;
+font-weight: bold;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    gap:6px;
+    animation:slideTop 1s ease forwards;
+}
+.navigation ul li{
+    list-style: none;
+    background-color: white;
+    border:1px solid #00000029;
+    box-shadow: 0px 3px 6px #00000029;
+    height:40px;
+    width:40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#8C96AB;
+}
+.navigation-active {
+    background-color: #8C96AB !important;
+    color:white !important;
+}

@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Caveat:wght@600&family=Poppins:wght@300;400&family=Prata&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-section{
+    border: 1px solid rgb(63, 58, 58);
+    height: 70vh;
+background-image:linear-gradient(transparent,rgba(48, 39, 39, 0.695)),url(../images/main-bg1.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+.main-section-header{
+
+    width: 100%;
+    padding:15px 50px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    height:3rem; 
+    font-size: 1.1rem;
+
+}
+
+.btn:hover{
+    background-color: rgba(20, 18, 18, 0.74);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.create-account{
+    border:1px solid white;
+    border-radius: 4px;
+    width: 13rem;
+}
+.brand-logo{
+    width:135px;
+    height:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size:5rem;
+    background-color:black;
+    margin: 15px;
+}
+body,button,input{
+
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.main-section-text{font-size: 2.7rem;
+    margin:4px 0px;
+    font-weight: bold;
+    
+
+
+}
+.search{
+    display: flex;
+    
+    width:45%;
+    justify-content:space-between;
+    margin:12px 0px;
+    flex-wrap: wrap;
+}
+.input{
+    outline-style: none;
+    border-radius:0px;
+    border:none;
+    padding: 10px;
+    width: 20px;
+    font-size: larger;
+
+
+}
+
+.location-search{
+    width:40%;
+    
+
+}
+.restaurant-search{
+    width:55%;
+    background-color:white;
+    color:black;
+}
+.restaurant-search > input
+{
+    width:80%;
+}
+.search-icon{
+    padding-left:20px;
+    color:black;
+}
+.meal-type{
+    
+    width:80%;
+    margin:auto;
+    padding-top: 35px;
+}
+.meal-type-title{
+    color:rgb(20, 1, 1);
+    font-size:1.8rem;
+}
+.meal-type-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.meal-type-subtitle{
+    color:gray;
+    padding-top:5px;
+    font-size: large;
+}
+.meal-type-list-item{
+    display: flex;
+    width:30%;
+    height:25vh;
+
+    margin: 35px 0px;
+    box-shadow: 10px 10px 5px gray;
+
+}
+.meal-type-list-item-img{
+    width:45%;
+}
+.list-item-content{
+    padding:20px;
+    background-color: white;
+}
+.list-item-content-title{
+    color: rgb(20, 1, 1);
+    font-size: 25px;
+}
+.list-item-content-sub-title{
+font-size: 18px;
+color: gray;
+}
